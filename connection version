@@ -1,0 +1,5 @@
+if _G.OldScriptConnection then
+    _G.OldScriptConnection:Disconnect()
+end
+
+_G.OldScriptConnection = loadstring(game:HttpGet("https://raw.githubusercontent.com/sasty-cloud/Cold-hub-Blade-ball/refs/heads/main/Main"))()
